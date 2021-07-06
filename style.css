@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/pexels-damir-mijailovic-5267480.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.contagem-container {
+    display: flex;
+}
+
+.texto {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+
+.contagem-n {
+    text-align: center;
+}
+
+.contagem-n span {
+    font-size: 1.75rem;
+}
